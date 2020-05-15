@@ -13,6 +13,8 @@ pykml
 Usage:
 python pyrouter.py kml_file route_file accel_file
 
-  kml_file    KML map *.kml
-  route_file  GPS route map *.csv
-  accel_file  Acceleration route data *.csv
+kml_file:    KML map *.kml
+
+route_file:  GPS route map *.csv
+
+accel_file:  Acceleration route data *.csv
