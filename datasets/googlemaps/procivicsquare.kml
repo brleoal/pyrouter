@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pro Civic Square</name>
+    <Style id="icon-ci-1-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-1-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-2-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-2-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Pro Civic Square</name>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.07758,-11.93424,94.0
+          -77.07738,-11.93465,94.0
+          -77.07701,-11.93538,91.0
+          -77.07664,-11.93618,96.0
+          -77.07639,-11.93607,96.0
+          -77.07581,-11.93591,99.0
+          -77.07545,-11.93584,99.0
+          -77.07542,-11.93584,99.0
+          -77.07495,-11.93578,101.0
+          -77.07449,-11.93575,100.0
+          -77.07452,-11.93536,99.0
+          -77.07456,-11.93487,99.0
+          -77.0746,-11.93448,98.0
+          -77.07468,-11.93362,101.0
+          -77.0752,-11.93365,101.0
+          -77.07562,-11.9337,100.0
+          -77.07566,-11.93371,100.0
+          -77.07608,-11.93373,100.0
+          -77.07666,-11.93386,91.0
+          -77.07675,-11.93389,91.0
+          -77.07682,-11.93391,91.0
+          -77.07699,-11.93398,91.0
+          -77.07716,-11.93405,94.0
+          -77.07718,-11.93405,94.0
+          -77.07749,-11.9342,94.0
+          -77.07758,-11.93424,94.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Confraternidad 718, Los Olivos 15307, Perú</name>
+      <styleUrl>#icon-ci-1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -77.0775809,-11.9342433,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Confraternidad 718, Los Olivos 15307, Perú</name>
+      <styleUrl>#icon-ci-2-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -77.0775809,-11.9342433,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
