@@ -4,17 +4,20 @@ Reduce GPS data error with Kalman Filter and sensor fusion.
 For obtain GPS data I used Android application Phyphox https://phyphox.org/
 
 Requeriments:
-numpy
-scipy
-pandas
-matplotlib
-pykml
+- numpy
+- scipy
+- pandas
+- matplotlib
+- pykml
 
 Usage:
-python pyrouter.py kml_file route_file accel_file
 
-kml_file:    KML map *.kml
+```sh
+$ python pyrouter.py KML_FILE ROUTE_FILE ACCEL_FILE
+```
 
-route_file:  GPS route map *.csv
+KML_FILE: KML map *.kml
 
-accel_file:  Acceleration route data *.csv
+ROUTE_FILE: GPS route map *.csv
+
+ACCEL_FILE: Acceleration route data *.csv
